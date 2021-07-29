@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ header{
+    background-color:#2874f0;
+    border: 2px rgb(59, 240, 59) red ;
+    font-family: 'Raleway', sans-serif;
+    
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+    width: 86px;padding: 0 25px;
+}
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(224, 46, 14);
+    /* font-style: italic; */
+    font-weight:bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 500px;
+    height: 25px;
+    border-radius: 8px;
+    margin: 0 10px 0 40px;
+    padding: 0 12px;
+}
+/* .container{
+    margin: 0 0 0 50px;
+} */
+.slider{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
+    padding: 10px;
+    
+    /* height: 60px; not used */
+    /* margin: 12px ; */
+}
+.slider img{
+    /* border: 2px solid white; */
+    border-radius: 9px;
+}
+.card{
+    /* background-color: #2874f0; */
+    width: 100vw;
+      margin: 5px auto;
+  
+}
+.cards{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    /* justify-content: center; */
+    overflow: auto;
+    /* margin: 0px 0px 0px auto; */
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 0vw 0 2vw ;
+    /* padding: 0 1vw 0 1vw; */
+}
+
+.card-item img{
+    border: 2px;
+    border-radius: 8px;
+}
+.container{
+    min-height: calc(100vh - 60px - 12vh);
+}
+footer{
+    height: 12vh;
+    background-color:#2874f0;
+    color: rgb(247, 246, 244);
+    font-family: 'Raleway', sans-serif;
+}
